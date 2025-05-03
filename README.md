@@ -1,10 +1,10 @@
-John A. Smith
+Colin P. Frishberg
 
 Data Science Portfolio
 
-john_smith@yahoo.com
+cpfrish@berkeley.edu
 
-Masters in Data Science (in progress - expected Summer 2021)
+Masters in Data Science (in progress - expected Summer 2026)
 
 Univeristy of California, Berkeley
 
