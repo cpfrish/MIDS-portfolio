@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Data Scientist</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117; /* GitHub-like dark background */
+            color: #c9d1d9; /* Light text color */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Section -->
+    <header class="container mx-auto p-6 md:p-8 flex justify-between items-center">
+        <div class="text-2xl font-bold">Your Name</div>
+        <nav>
+            <ul class="flex space-x-6 md:space-x-8 text-sm md:text-base">
+                <li><a href="#projects" class="hover:text-blue-400 transition-colors duration-300">Projects</a></li>
+                <li><a href="#" class="hover:text-blue-400 transition-colors duration-300">About</a></li>
+                <li><a href="#" class="hover:text-blue-400 transition-colors duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="container mx-auto p-6 md:p-12 text-center">
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-4 text-white">Turning Data into <br class="hidden md:block"> Insightful Stories</h1>
+        <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8 text-gray-400">
+            Welcome to my portfolio. I'm a passionate data scientist specializing in machine learning,
+            predictive analytics, and data visualization. I build models that solve real-world problems.
+        </p>
+        <a href="#projects" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full
+        shadow-lg transition-all duration-300 transform hover:scale-105">
+            Explore My Projects
+        </a>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto p-6 md:p-12 mt-12 md:mt-20">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-10 text-white">Featured Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Project Card 1 -->
+            <a href="#" class="bg-gray-800 rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div class="p-6 md:p-8">
+                    <h3 class="text-2xl font-bold mb-2 text-blue-400">Predictive Analytics Model</h3>
+                    <p class="text-gray-400 mb-4">
+                        A machine learning model to predict customer churn based on behavioral data, achieving 92% accuracy.
+                    </p>
+                    <span class="inline-block bg-gray-700 text-white text-xs font-semibold px-2 py-1 rounded-full">Python, Scikit-learn, Pandas</span>
+                </div>
+            </a>
+
+            <!-- Project Card 2 -->
+            <a href="#" class="bg-gray-800 rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div class="p-6 md:p-8">
+                    <h3 class="text-2xl font-bold mb-2 text-blue-400">Natural Language Processing (NLP) Dashboard</h3>
+                    <p class="text-gray-400 mb-4">
+                        An interactive dashboard for sentiment analysis of social media data, built with Python and Plotly.
+                    </p>
+                    <span class="inline-block bg-gray-700 text-white text-xs font-semibold px-2 py-1 rounded-full">Python, NLTK, Plotly</span>
+                </div>
+            </a>
+
+            <!-- Project Card 3 -->
+            <a href="#" class="bg-gray-800 rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div class="p-6 md:p-8">
+                    <h3 class="text-2xl font-bold mb-2 text-blue-400">Computer Vision for Object Detection</h3>
+                    <p class="text-gray-400 mb-4">
+                        A real-time object detection system using a custom-trained deep learning model with TensorFlow.
+                    </p>
+                    <span class="inline-block bg-gray-700 text-white text-xs font-semibold px-2 py-1 rounded-full">Python, TensorFlow, OpenCV</span>
+                </div>
+            </a>
+
+            <!-- Project Card 4 -->
+            <a href="#" class="bg-gray-800 rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div class="p-6 md:p-8">
+                    <h3 class="text-2xl font-bold mb-2 text-blue-400">Recommendation Engine</h3>
+                    <p class="text-gray-400 mb-4">
+                        A collaborative filtering and content-based recommendation system built for an e-commerce platform.
+                    </p>
+                    <span class="inline-block bg-gray-700 text-white text-xs font-semibold px-2 py-1 rounded-full">Python, Spark, SQL</span>
+                </div>
+            </a>
+
+            <!-- Project Card 5 -->
+            <a href="#" class="bg-gray-800 rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div class="p-6 md:p-8">
+                    <h3 class="text-2xl font-bold mb-2 text-blue-400">Time Series Forecasting</h3>
+                    <p class="text-gray-400 mb-4">
+                        Forecasting sales data using ARIMA and Prophet models to help a business optimize inventory.
+                    </p>
+                    <span class="inline-block bg-gray-700 text-white text-xs font-semibold px-2 py-1 rounded-full">Python, Prophet, Matplotlib</span>
+                </div>
+            </a>
+
+            <!-- Project Card 6 -->
+            <a href="#" class="bg-gray-800 rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                <div class="p-6 md:p-8">
+                    <h3 class="text-2xl font-bold mb-2 text-blue-400">Data Visualization Storytelling</h3>
+                    <p class="text-gray-400 mb-4">
+                        An interactive data storytelling project visualizing global climate change patterns with D3.js.
+                    </p>
+                    <span class="inline-block bg-gray-700 text-white text-xs font-semibold px-2 py-1 rounded-full">JavaScript, D3.js, HTML/CSS</span>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="container mx-auto p-6 md:p-8 text-center text-gray-500 mt-20">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
